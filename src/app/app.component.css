@@ -7,8 +7,12 @@
     font-family: 'Abril_Fatface';
 }
 
-.title{
+.title-p{
     color: var(--purple);
+}
+
+.title-g{
+    color: var(--green);
 }
 
 
