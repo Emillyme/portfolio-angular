@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --purple: #9e2896;
+    --green: #308a85; 
+    --blue: #007bc0; 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abril_Fatface';
+    src: url('assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
